@@ -46,7 +46,7 @@ public class setup {
     public static void stopServer() {
         if (service != null && service.isRunning()) {
             service.stop();
-            System.out.println("🛑 Appium server stopped.");
+            System.out.println("Appium server stopped.");
         }
     }
 
